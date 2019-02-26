@@ -4,7 +4,8 @@
   "description": "This is a Nodejs Todo-API with Mongo Database",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,11 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "mongoose": "^5.4.15"
+  },
+  "devDependencies": {
+    "expect": "^24.1.0",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10",
+    "supertest": "^3.4.2"
   }
 }
