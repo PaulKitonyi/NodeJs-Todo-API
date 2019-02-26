@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-todo-api",
+  "version": "1.0.0",
+  "description": "This is a Nodejs Todo-API with Mongo Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulKitonyi/NodeJs-Todo-API.git"
+  },
+  "author": "Paul Kitonyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulKitonyi/NodeJs-Todo-API/issues"
+  },
+  "homepage": "https://github.com/PaulKitonyi/NodeJs-Todo-API#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.15"
+  }
+}
